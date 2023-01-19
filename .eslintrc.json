@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "no-console": "off",
+    "react/jsx-no-bind": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/no-noninteractive-tabindex": "off",
+    "no-case-declarations": "off",
+    "array-callback-return": "off",
+    "default-param-last": "off",
+    "consistent-return": "off",
+    "no-nested-ternary": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/no-unused-expressions": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "ignorePatterns": ["**/node_modules/**", "**/.next/**"]
+  
+}
